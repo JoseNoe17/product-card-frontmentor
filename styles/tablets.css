@@ -1,0 +1,42 @@
+
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.section-container{
+    width: 100%;
+    max-width: 700px;
+    height: 60%;
+    max-height: 500px;
+    flex-direction: row;
+
+}
+
+.content-text-container{
+    width: 50%;
+    height: 100%;
+    max-height: 420px;
+
+}
+
+.content-text-container h1 {
+    font-size: 3.8rem;
+}
+.content-text-container p {
+    font-size: 2rem;
+    line-height: 3.0rem;
+}
+
+.img-container{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('../images/image-product-desktop.jpg');
+}
+
+.add-cart{
+    height: 20%;
+    border-radius: 10px;
+}
+
